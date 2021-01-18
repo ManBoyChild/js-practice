@@ -19,7 +19,7 @@ describe('caesar', function() {
   it('works with large shift factors', function() {
     expect(caesar('Hello, World!', 75)).toEqual('Ebiil, Tloia!');
   });
-  xit('works with large negative shift factors', function() {
+  it('works with large negative shift factors', function() {
     expect(caesar('Hello, World!', -29)).toEqual('Ebiil, Tloia!');
   });
 });
